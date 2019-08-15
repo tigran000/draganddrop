@@ -1,0 +1,35 @@
+.Person {
+  display: flex;
+  height: 50px;
+  background-color: white;
+  border-bottom: 1px solid gray;
+}
+
+.avatar {
+  border-radius: 50%;
+  padding: 5px 10px;
+  height: 40px;
+  width: 40px;
+}
+
+.lastname {
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin: 7px 0px -3px 0px;
+}
+
+.name {
+  font-size: 0.8rem;
+  margin: 0;
+  padding: 0px;
+}
+
+@media only screen and (max-width: 480px) {
+  .lastname {
+    font-size: 0.6rem;
+    margin: 15px 0px 0px 0px;
+  }
+  .name {
+    font-size: 0.5rem;
+  }
+}

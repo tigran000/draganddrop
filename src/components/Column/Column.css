@@ -1,0 +1,34 @@
+.Column {
+  box-shadow: -10px 4px 17px -10px rgba(0, 0, 0, 0.75);
+}
+
+.Column-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+}
+
+.red {
+  background-color: #e60000;
+}
+
+.blue {
+  background-color: #007fe6;
+}
+
+.Column-header img {
+  width: 50px;
+  height: 50px;
+}
+
+.Column-content {
+  min-height: 60vh;
+  min-width: 25vw;
+}
+
+@media only screen and (max-width: 480px) {
+  .Column-content {
+    min-width: 40vw;
+  }
+}
